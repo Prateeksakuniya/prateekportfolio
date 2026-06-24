@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <defs>
+    <linearGradient id="phpGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8892BF" />
+      <stop offset="100%" stop-color="#4F5B93" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <ellipse cx="128" cy="128" rx="110" ry="75" fill="url(#phpGradient)" filter="url(#dropShadow)" />
+
+  <ellipse cx="128" cy="128" rx="102" ry="67" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.3" />
+
+  <g fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-style="italic">
+    <text x="45" y="150" font-size="72" letter-spacing="-2">p</text>
+    <text x="90" y="150" font-size="72" letter-spacing="-2">h</text>
+    <text x="145" y="150" font-size="72" letter-spacing="-2">p</text>
+  </g>
+</svg>
